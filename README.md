@@ -1,3 +1,4 @@
+
 GreenConnect
 Welcome to GreenConnect! This platform is your one-stop hub for creating and managing events, fundraisers, petitions, and sharing your eco-friendly actions. Join us in reducing our carbon footprint and fostering environmental awareness.
 
@@ -27,50 +28,57 @@ Petitions: Start, manage, and sign petitions for environmental advocacy.
 
 API Endpoints
 Events
-GET: /v1/greenconnect/events
-POST: /v1/greenconnect/events
-GET: /v1/greenconnect/events/:id
-PUT: /v1/greenconnect/events/:id
-DELETE: /v1/greenconnect/events/:id
+
+ - GET: /v1/greenconnect/events 
+ - POST: /v1/greenconnect/events 
+ - GET:/v1/greenconnect/events/:id 
+ - PUT: /v1/greenconnect/events/:id 
+ - DELETE:/v1/greenconnect/events/:id
 
 Attendees
-GET: /v1/greenconnect/attendees
-POST: /v1/greenconnect/attendees
-GET: /v1/greenconnect/attendees/:id
-PUT: /v1/greenconnect/attendees/:id
-DELETE: /v1/greenconnect/attendees/:id
+
+ - GET: /v1/greenconnect/attendees 
+ - POST: /v1/greenconnect/attendees 
+ - GET: /v1/greenconnect/attendees/:id 
+ - PUT: /v1/greenconnect/attendees/:id
+ - DELETE: /v1/greenconnect/attendees/:id
 
 Fundraisers
-GET: /v1/greenconnect/fundraisers
-POST: /v1/greenconnect/fundraisers
-GET: /v1/greenconnect/fundraisers/:id
-PUT: /v1/greenconnect/fundraisers/:id
-DELETE: /v1/greenconnect/fundraisers/:id
+
+ - GET: /v1/greenconnect/fundraisers 
+ - POST: /v1/greenconnect/fundraisers
+ - GET: /v1/greenconnect/fundraisers/:id 
+ - PUT: /v1/greenconnect/fundraisers/:id 
+ - DELETE: /v1/greenconnect/fundraisers/:id
 
 Donations
-GET: /v1/greenconnect/donations
-POST: /v1/greenconnect/donations
+
+ - GET: /v1/greenconnect/donations 
+ - POST: /v1/greenconnect/donations
+
 Social Feeds
-GET: /v1/greenconnect/socialfeeds
-POST: /v1/greenconnect/socialfeeds
-GET: /v1/greenconnect/socialfeeds/:id
-PUT: /v1/greenconnect/socialfeeds/:id
-DELETE: /v1/greenconnect/socialfeeds/:id
+
+ - GET: /v1/greenconnect/socialfeeds 
+ - POST: /v1/greenconnect/socialfeeds
+ - GET: /v1/greenconnect/socialfeeds/:id 
+ - PUT: /v1/greenconnect/socialfeeds/:id 
+ - DELETE: /v1/greenconnect/socialfeeds/:id
 
 Petitions
-GET: /petitions
-POST: /petitions
-PUT: /petitions/:id
-DELETE: /petitions/:id
-GET: /petitions/:id
-GET: /petitions/:emailId
+
+ - GET: /petitions 
+ - POST: /petitions 
+ - PUT: /petitions/:id 
+ - DELETE: /petitions/:id 
+ - GET: /petitions/:id 
+ - GET: /petitions/:emailId
 
 Signatures
-GET: /signature
-POST: /signature
-GET: /signature/:petitionId
-GET: /signature/:emailId
-GET: /signature/count/:emailId
+
+ - GET: /signature 
+ - POST: /signature 
+ - GET: /signature/:petitionId 
+ - GET: /signature/:emailId GET: /signature/count/:emailId
 
 Running the App
 Prerequisites
